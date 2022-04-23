@@ -12,6 +12,7 @@ namespace Reserve1
         static void Main(string[] args)
         {
             byte[] result = new byte[4];
+            Console.WriteLine("Введите 4-е байта");
             for(int i = 0; i < 4; i++)
             {
                result[i] = Convert.ToByte(Console.ReadLine());
